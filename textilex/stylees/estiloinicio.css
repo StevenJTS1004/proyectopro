@@ -1,0 +1,175 @@
+/* Resetear estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo de la p�gina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 70px;
+    padding: 100px;
+    background: url(casahd.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #222;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Estilo para el logotipo */
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para la barra de navegaci�n */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #0f84f1;
+}
+
+/* Estilo para las secciones de contenido */
+.content {
+    padding: 40px;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para los botones */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0f78f1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
+/* Estilo para los bloques de productos */
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1 0 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box i {
+    font-size: 48px;
+    color: #f1c40f;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilo para el pie de p�gina */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Estilo para enlaces en el pie de p�gina */
+footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Estilos para el título */
+.title {
+    color: #333;
+    font-size: 24px;
+    text-decoration: underline;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el título para indicar que es un enlace */
+  }
+  
+  /* Estilos para el botón */
+  #productosButton {
+    background-color: #1088f8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+/* Estilo para el contenedor del video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* O ajusta la altura que desees */
+}
+
+/* Estilo para el video */
+.video-container video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+

@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    
+   
+    font-family: Arial, sans-serif;
+        
+       
+    margin: 0;
+        
+       
+    padding: 0;
+        background-color: #0d9fc4;
+        height: 90vh !important;
+            background: url(img/casahd.jpg) no-repeat center;
+            background-size: cover;
+        
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    form {
+        max-width: 300px;
+        
+       
+    margin: 0 auto;
+        
+       
+    padding: 20px;
+        
+       
+    background-color: #fff;
+        
+       
+    border: 1px solid #ccc;
+        
+       
+    border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    input {
+        
+       
+    width: 100%;
+        
+       
+    padding: 10px;
+        
+       
+    margin-bottom: 10px;
+        
+       
+    border: 1px solid #ccc;
+        
+       
+    border-radius: 3px;
+    }
+    
+    input[type="submit"] {
+        
+       
+    background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        
+       
+    background-color: #04e00d;
+    }
+    
+    /* Mensajes de error */
+    .error {
+        
+       
+    color: red;
+        
+       
+    font-size: 14px;
+        
+       
+    margin-bottom: 10px;
+    }
+    
+    
+    
